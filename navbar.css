@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* background-image: url(/images/camera.jpg); */
+}
+
+body{
+
+    background-image: url(/images/camera.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.main{
+    width: 100%;
+    height: 15vh;
+    /* background-image: radial-gradient(rgba(144, 33, 228, 0.6)rgba(0, 0, 0, 0.5)), url(/images/camera.jpg); */
+    /* background-color: aquamarine; */
+    /* background-image: url(/images/bgimage.png); */
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    height: 60px;
+    
+}
+
+h2{
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(47, 6, 196);
+}
+#bar{
+    color: red;
+}
+
+ul {
+    padding-right: 60px;
+    display: flex;
+    
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+li a:hover{
+    color: rgb(11, 0, 0);
+}
+
+img{
+    height: 40px;
+    
+}
+
+.button{
+    margin-right: 40px;
+    padding-right: 5px;
+    /* margin-right: 10px; */
+    border: 2px solid red;
+    color: rgb(11, 0, 0);
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+
+}
+
+main{
+    margin: 80px 20px;
+         
+}
+
+main h4{
+    margin-top: 0px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color:red;
+
+}
+main h1{
+    padding:20px;
+    /* margin: 10px; */
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+main p{
+        padding: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color:red;
+}
+
+main .btn{
+        padding: 10px 29px;
+        /* margin-right: 100px; */
+        font-size: 15px;
+        font-weight: bold;
+        color:white;
+        background-color: red;
+        border-radius: 10px;
+        margin-left: 20px;
+}
+
+.button:hover{
+    color:black
+}
+
+.main nav h2:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    color: wheat;
+}
+
+.first h1:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    color: wheat;
+}
+
+.first h4:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.first p:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    
+        color:black;
+        cursor: pointer;
+    }
+
